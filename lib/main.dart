@@ -53,6 +53,8 @@ class _HomePageState extends State<HomePage> {
 
     final json = {
       'name': name,
+      'age': 21,
+      'birthday': DateTime(2001, 7, 28),
     };
 
     /// Create document and write data to Firebase
